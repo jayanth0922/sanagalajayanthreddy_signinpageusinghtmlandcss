@@ -1,0 +1,132 @@
+#login_div{
+    border: 2px solid lightblue;
+    max-width:350px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    margin: 60px auto;
+   
+}
+#login_div h1{
+    background-color:#6b13cf;
+    color:white;
+    font-size: :25px;
+    font-family: Roboto;
+    border:2px solid blue;
+    margin-top:0;
+    box-sizing: border-box;
+}
+input[type="email"],input[type="password"]{
+    padding:7px;
+    border:2px solid lightgrey;
+    border-bottom: 2px solid lightblue;  
+    outline:none;
+    width:300px;  
+    font-family:roboto;
+    font-size:18px;
+    border-radius: 20px;
+}
+input[type="submit"]{
+    padding:7px;
+    border:2px solid lightgrey;
+    background-color: skyblue;
+    width:300px; 
+    color:white;
+    font-family:roboto;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    outline:none;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+#login_div a{ 
+    text-decoration: None;
+}
+#or{
+margin: -30px auto 10px;
+width:30px;
+background:#fff;
+}
+#fb{
+    padding:7px;
+    border:2px solid lightgrey;
+    background-color: blue;
+    width:300px; 
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    outline:none;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+#google{
+    padding:5px;
+    border:2px solid red;
+    background-color:salmon;
+    width:300px; 
+    height:37px;
+    color:white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    outline:none;
+    cursor:pointer;
+    padding-top:0;
+    box-sizing: border-box;
+}
+#epam{
+    padding:7px;
+    border:2px solid lightgrey;
+    background-color: lightgreen;
+    width:300px; 
+    font-family: roboto;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    outline:none;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+input[type="submit"]:hover,#epam:hover,#google:hover,#fb:hover{
+    box-shadow: 0 0 10px darkblue;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
